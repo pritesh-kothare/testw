@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Example Stage') {
+            steps {
+                sh 'echo "this is my first command"'
+            }
+        }
+    }
+}
