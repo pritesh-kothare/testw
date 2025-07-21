@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Example Stage') {
             steps {
-                sh 'echo "this is my first command"'
+                sh 'echo "this is my second command"'
             }
         }
     }
